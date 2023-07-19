@@ -1,0 +1,48 @@
+.data-table-container {
+  padding: 20px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+
+  th {
+    cursor: pointer;
+    background-color: #f2f2f2;
+  }
+}
+/* styles/dataTable.scss */
+.data-table-container {
+  padding: 20px;
+}
+
+/* Style the search input */
+.data-table-container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  width: 30%;
+  outline: none;
+}
+
+/* Style the search button */
+.data-table-container button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.data-table-container button:hover {
+  background-color: #0056b3;
+}
